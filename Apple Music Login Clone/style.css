@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Apple Color Emoji,SF Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.col__left{
+    background-color: #f9f9f9;
+    max-width: 400px;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__music{
+    display: flex;
+    margin-top: -20px;
+    /* margin-left: -20px; */
+}
+
+.header__music .logo__apple{
+    font-size: 24px;
+}
+
+.header__music h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.search .search__icon{
+    position: absolute;
+    top: 26px;
+    left: 6px;
+}
+
+.input__search{
+    margin-top: 20px;
+    padding: 10px;
+    width: 190px;
+    height: 30px;
+    border: none;
+    position: relative;
+    border-radius: 4px;
+}
+
+.input__search::placeholder{
+    padding: 14px;
+}
+
+.links{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links .link{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+.links .link:nth-child(3){
+    border-bottom: 1px solid rgb(209, 205, 205);
+    max-width: 100%;
+}
+
+.links .link ion-icon{
+    color: rgb(218, 45, 45);
+    font-size: 20px;
+    margin-bottom: -3px;
+}
+
+.links .active{
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
+}
+
+.open_in_music{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    color: gray;
+}
+
+.open_in_music ion-icon{
+    margin-right: 8px;
+}
+
+.arrow{
+    font-weight: 900;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.header__play{
+    display: flex;
+    width: 1270px;
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header__play img{
+    margin-left: 100px;
+    width: 160px;
+}
+
+.apple__logo{
+    border: 1px solid lightgray;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.apple__logo i:nth-child(1){
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 232, 232);
+    height: 100%;
+    width: 50px;
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+}
+
+.apple__logo ion-icon:nth-child(2){
+    margin-right: 200px;
+    color: gray;
+    font-size: 30px;
+}
+
+.volume{
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.volume ion-icon{
+    color: gray;
+    font-size: 18px;
+}
+
+.volume .range{
+    fill: gray;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.fa-bars{
+    margin: 10px 40px 0 40px;
+    color: gray;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d60017;
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn__signin i {
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.body{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body ion-icon{
+    font-size: 25px;
+}
+
+.body span{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.body h1{
+    margin-top: 20px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.body p {
+    color: rgb(82, 82, 82);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btn__tryitfree{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.learn__more{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.learn__more ion-icon{
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.learn__more:hover{
+    text-decoration: underline;
+}
+
+.background__image img{
+    max-width: 100%;
+    height: 700px;
+}
+
+
+
